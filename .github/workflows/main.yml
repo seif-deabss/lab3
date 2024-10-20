@@ -1,0 +1,10 @@
+name: kab3
+on: push
+jobs:
+ j1:
+    runs-on: ubuntu_latest
+    steps:
+    - name: step_1
+      run: echo "hi"
+    - name: st2
+      run: echo "hi2222"
